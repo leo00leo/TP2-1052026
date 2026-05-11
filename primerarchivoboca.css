@@ -1,12 +1,12 @@
 body {
-    background: hsl(229, 49%, 21%);
+    background: hsl(229, 49%, 15%);
     color: hsl(0, 0%, 100%);
   }
   #escudo {
     width: 18%;
     margin: 3% auto;
     height: 44vh;
-    background-color: hsl(49, 95%, 41%);
+    background-color: hsl(46, 100%, 49%);
     border-radius: 30px;
     text-align: center;
   }
@@ -14,41 +14,48 @@ body {
     width: 16%;
     margin: 3% auto;
     height: 5vh;
-    background-color: hsl(49, 95%, 41%);
+    background-color: hsl(46, 100%, 49%);
     border-radius: 10px;
    text-align: center;
   }
     #parrafo {
     margin: 1% auto;
-    height: 10vh;
+    height: 20vh;
     border-radius: 10px;
     text-align: center;
   }
 
   #escudos {
     width: 46%;
+    margin: 15% auto;
+    height: 1vh;
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+    #parrafo2 {
+    width: 100%;
     margin: 10% auto;
-    height: 6vh;
+    height: 30vh;
     border-radius: 10px;
     text-align: left;
   }
-    #parrafo2 {
-    margin: 1% auto;
-    height: 10vh;
-    border-radius: 10px;
-    text-align: center;
-  }
     #rivalidades {
-      width: 40%;
-    margin: 13% auto;
-    height: 1vh;
+    width: 40%;
+    margin: 1% auto;
     border-radius: 10px;
     text-align: center;
   }
     #estadio {
     text-align: center;
   }
+    #superclasico {
+    margin: 1% auto;
+    height: 120vh;
+    border-radius: 10px;
+    text-align: center;
 
+  }
   #river {
     text-align: center;
   }
@@ -56,4 +63,59 @@ body {
   #torneos {
     text-align: center;
   }
-  
+  .transitions-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.transition-button {
+  background-color: hsl(46, 100%, 49%);
+  color: #fff;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.transition-button:hover {
+  background-color: hsl(213, 96%, 27%);
+  transform: scale(1.1);
+}
+  .transitions-nombre {
+  padding: 20px;
+  text-align: center;
+}
+
+.transition-nombre {
+  background-color: hsl(46, 100%, 49%);
+  color: #fff;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.transition-nombre:hover {
+
+  transform: scale(1.1);
+}
+.contenedor{
+    display:flex;
+}
+
+.sidebar{
+    width:220px;
+    min-height:700vh;
+    background-color:hsl(46, 100%, 49%);
+    color:hsl(46, 100%, 49%);
+    padding:20px;
+    text-align:center;
+}
+
+.contenido{
+    flex:1;
+    padding:20px;
+}
+  .sidebar img {
+    display: block;
+    margin-bottom: 100px;
+}
