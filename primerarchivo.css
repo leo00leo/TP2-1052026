@@ -1,4 +1,6 @@
 body {
-    background-color: #000000;
-    color: #000000;
+    background-color: hsl(0, 0%, 13%);
+    }
+    #elija {
+    text-align: center;   
     }
