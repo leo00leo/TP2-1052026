@@ -1,0 +1,88 @@
+body {
+    background-image: url('fondomon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: hsl(0, 0%, 100%);
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor-imagen {
+    border: 3px solid hsl(0, 0%, 100%);
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+.contenedor-imagen img {
+    width: 1000px;
+    max-width: 100%;
+}
+.brillo{
+    transition: 0.4s;
+    margin-top: 40px;
+}
+
+.brillo:hover{
+    filter: brightness(1.0);
+    box-shadow: 0 0 100px hsl(0, 0%, 100%);
+    transform: scale(1.1);
+    
+}
+  .transitions-section {
+  padding: 20px;
+  text-align: center; 
+}
+
+.transition-button {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(354, 87%, 50%);
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    font-family: "Quicksand", sans-serif;
+}
+table, th, td {
+    border: 3px solid hsl(354, 87%, 50%);
+    background-color: #ffffff;
+    padding: 30px;
+  }
+table {
+    border-collapse: collapse;
+    
+
+  }
+.transition-button:hover {
+  background-color: hsl(0, 0%, 100%);
+  transform: scale(1.016);
+}
+  .transitions-nombre {
+  padding: 20px;
+  text-align: center;
+}
+.volver {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    
+    background-color: #ffffff;
+    color: hsl(354, 87%, 50%);
+    
+    padding: 10px 15px;
+    border-radius: 8px;
+    
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.volver:hover {
+    background-color: #ffffff;
+}
